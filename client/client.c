@@ -17,7 +17,6 @@ int main(int argc, char *argv[])
 	time_t timep;
 	char tm[MAX];
 
-
 	if (argc != 2)
 	{
 		printf("Error! The Correct Format is\n./client 127.0.0.1\n");
