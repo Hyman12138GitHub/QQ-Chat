@@ -1,4 +1,4 @@
-#include "head.h"
+﻿#include "head.h"
 #include "pack.h"
 
 int row = 9;
@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 	pthread_t tid;
 	time_t timep;
 	char tm[MAX];
+
 
 	if (argc != 2)
 	{
