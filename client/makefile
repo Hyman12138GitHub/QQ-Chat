@@ -1,4 +1,5 @@
 objs = client.o start.o cmd.o handle.o secret_password.o thread.o
+
 client:$(objs)
 	gcc $(objs) -o client -lpthread
 client.o:client.c
